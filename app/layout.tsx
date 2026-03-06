@@ -15,9 +15,9 @@ const fontHeading = FontHeading({
 });
 
 export const metadata: Metadata = {
-  title: "Waitly: Waiting list Next.js template.",
+  title: "Meal Planner",
   description:
-    "A simple and useful waiting list Next.js template. It's free and open source. Built with React, Tailwind CSS, and shadcn/ui. Typescript compatible.",
+    "A simple and useful meal planner",
 };
 
 export default function RootLayout({
