@@ -2,6 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { Cal_Sans as FontHeading, Plus_Jakarta_Sans as FontSans } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 const fontSans = FontSans({
     subsets: ["latin"],
