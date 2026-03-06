@@ -1,11 +1,8 @@
 "use client";
 
 import { XIcon } from "@/components/icons/x-icon";
-import { DiscordIcon } from "@/components/icons/discord-icon";
-import { FacebookIcon } from "@/components/icons/facebook-icon";
-import { LinkedInIcon } from "@/components/icons/linkedin-icon";
+
 import { WaitlistForm } from "./waitlist-form";
-import { InstagramIcon } from "@/components/icons/instagram-icon";
 import { SocialIcon } from "@/components/social-icon";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { motion, easeOut} from "motion/react";
@@ -35,8 +32,7 @@ export function WaitlistSignup() {
           </motion.h1>
           <motion.div custom={1} variants={variants}>
             <p className="text-lg sm:text-xl  text-muted-foreground text-balance">
-              Be part of something truly extraordinary. Join thousands of others
-              already gaining early access to our revolutionary new product.
+              Be part of something truly extraordinary, we're working hard for this to be reeased on time...
             </p>
           </motion.div>
         </header>
@@ -45,21 +41,9 @@ export function WaitlistSignup() {
         </motion.div>
         <motion.div custom={3} variants={variants} className="flex items-center justify-center  space-x-4">
           <div className="flex -space-x-3">
-            <Avatar>
-              <AvatarImage src="https://i.pravatar.cc/150?img=10" />
-            </Avatar>
-            <Avatar>
-              <AvatarImage src="https://i.pravatar.cc/150?img=20" />
-            </Avatar>
-            <Avatar>
-              <AvatarImage src="https://i.pravatar.cc/150?img=5" />
-            </Avatar>
-            <Avatar>
-              <AvatarImage src="https://i.pravatar.cc/150?img=40" />
-            </Avatar>
           </div>
           <p className="text-foreground text-sm opacity-70">
-            200+ people on the waitlist
+            0+ people on the waitlist
           </p>
         </motion.div>
       </motion.div>
@@ -68,31 +52,6 @@ export function WaitlistSignup() {
           href="https://github.com/bundui/waitly"
           target="_blank"
           icon={<GithubIcon className="w-6 h-6" />}
-        />
-        <SocialIcon
-          href="https://x.com/TobyBelhome"
-          target="_blank"
-          icon={<XIcon className="w-6 h-6" />}
-        />
-        <SocialIcon
-          href="https://instagram.com"
-          target="_blank"
-          icon={<InstagramIcon className="w-6 h-6" />}
-        />
-        <SocialIcon
-          href="https://discord.com"
-          target="_blank"
-          icon={<DiscordIcon className="w-6 h-6" />}
-        />
-        <SocialIcon
-          href="https://facebook.com"
-          target="_blank"
-          icon={<FacebookIcon className="w-6 h-6" />}
-        />
-        <SocialIcon
-          href="https://linkedin.com"
-          target="_blank"
-          icon={<LinkedInIcon className="w-6 h-6" />}
         />
       </div>
     </div>
